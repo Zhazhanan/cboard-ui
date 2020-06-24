@@ -1,4 +1,11 @@
 # cboard-ui
+ 
+CBoard-ui 目的是使用 Vue 2.0 重写 CBoard 的前端部分。
+
+CBoard 是一个他人开源的 BI 工具，用于生成可视化报表。（[项目地址](https://github.com/Zhazhanan/CBoard)）
+
+## 技术栈
+Vue + Vue Router + Vuex + Element-UI
 
 ## 1准备
 

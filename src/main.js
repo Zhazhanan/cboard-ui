@@ -3,18 +3,25 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import ElementUI from 'element-ui';
-import MainHeader from './components/MainHeader'
-import MainSidebar from './components/MainSidebar'
-import MainFooter from './components/MainFooter'
-import MainContent from './components/MainContent'
+
+//第三方插件
+import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+// import 'element-ui/lib/theme-chalk/index.css'; // In Dev
+
+//AdminLTE
+import 'admin-lte/dist/css/AdminLTE.min.css';
+// import 'admin-lte/dist/js/adminlte.js';
+// import 'admin-lte/dist/css/skins/skin-blue.min.css';
+// import 'admin-lte/dist/css/skins/_all-skins.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
-Vue.component('MainHeader', MainHeader);
-Vue.component('MainSidebar', MainSidebar);
-Vue.component('MainFooter', MainFooter);
-Vue.component('MainContent', MainContent);
 
 new Vue({
     router,
